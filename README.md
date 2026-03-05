@@ -1,0 +1,21 @@
+# Evasão escolar é uma escolha? (Caso IFPB-Picuí) — Pipeline SiSU 2017–2022
+
+Este repositório contém o **pipeline reprodutível** para extrair e analisar preferências
+de **curso** e **turno** no SiSU para residentes de **Picuí (PB)** (cód. IBGE **2511400**),
+no período **2017–2022**.
+
+## Fontes de dados
+- Microdados do SiSU (MEC), acessados via infraestrutura pública de consulta (BigQuery) usando:
+  - `basedosdados` (Python)
+
+## Requisitos
+- Python 3.10+
+- Acesso ao BigQuery (com billing habilitado)
+- Credenciais Google válidas
+
+## Instalação
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+pip install -r requirements.txt
