@@ -19,3 +19,12 @@ python -m venv .venv
 # Windows
 .venv\Scripts\activate
 pip install -r requirements.txt
+
+## DOI
+
+Este conjunto de dados está arquivado no Zenodo e possui identificador persistente (DOI):
+
+https://doi.org/10.5281/zenodo.19006824
+
+O DOI garante preservação, citabilidade e acesso permanente ao dataset utilizado neste estudo.
+
