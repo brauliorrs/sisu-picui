@@ -28,3 +28,16 @@ https://doi.org/10.5281/zenodo.19006824
 
 O DOI garante preservação, citabilidade e acesso permanente ao dataset utilizado neste estudo.
 
+#CITAÇÃO
+
+ABNT
+
+SILVA, Bráulio Roberto Rangel da. Dados e pipeline de análise do SiSU
+(Picuí – PB, 2017–2022). 
+Zenodo, 2026. DOI: https://doi.org/10.5281/zenodo.19006824.
+
+APA
+
+Silva, B. R. R. (2026). Dados e pipeline de análise do SiSU 
+(Picuí – PB, 2017–2022). 
+Zenodo. https://doi.org/10.5281/zenodo.19006824
