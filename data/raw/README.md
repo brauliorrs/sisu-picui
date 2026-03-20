@@ -1,5 +1,6 @@
 # data/raw
 
-Esta pasta guarda **saídas intermediárias** do pipeline (extrações e agregações brutas).
+Esta pasta guarda as saídas intermediárias do pipeline, especialmente o arquivo agregado
+produzido pela etapa de extração.
 
-Por padrão, estes arquivos não são versionados no Git para manter o repositório leve.
+Por padrão, esses arquivos não são versionados no Git para manter o repositório leve.

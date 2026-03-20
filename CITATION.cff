@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as follows."
+title: "Evasão escolar e mobilidade territorial? Caso IFPB-Picuí no SiSU (2017-2022)"
+type: software
+authors:
+  - family-names: "Silva"
+    given-names: "Bráulio Roberto Rangel da"
+repository-code: "https://github.com/brauliorrs/sisu-picui"
+license: "MIT"
+version: "1.0.0"
+date-released: 2026-03-20

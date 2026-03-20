@@ -1,9 +1,22 @@
-# Dicionário de variáveis (SiSU / microdados)
+# Dicionário de variáveis
 
-Fonte: `basedosdados.br_mec_sisu.microdados`
+Fonte principal: `basedosdados.br_mec_sisu.microdados`
 
-- `ano`: ano de referência do SiSU (INT64)
-- `id_municipio_candidato`: código IBGE do município de residência do candidato (STRING)
-- `nome_curso`: nome do curso escolhido (STRING)
-- `turno`: turno do curso (STRING) – exemplos: Integral, Noturno, Matutino, Vespertino, EaD
-- `total_inscricoes`: contagem de inscrições (derivada via agregação)
+## Variáveis originais utilizadas
+
+- `ano`: ano de referência do SiSU.
+- `id_municipio_candidato`: código IBGE do município de residência do candidato.
+- `nome_curso`: nome do curso escolhido na inscrição.
+- `turno`: turno associado ao curso escolhido.
+
+## Variável derivada
+
+- `total_inscricoes`: contagem agregada de inscrições para cada combinação de `ano`,
+  `nome_curso` e `turno`.
+
+## Observações analíticas
+
+- A unidade analítica do pipeline é a inscrição agregada.
+- O uso de `COUNT(1)` contabiliza registros da base filtrada, não pessoas únicas.
+- Resultados sobre evasão ou permanência exigem integração com outras bases ou
+  enquadramento analítico adicional.
